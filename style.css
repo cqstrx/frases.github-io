@@ -1,0 +1,98 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(211, 195, 195),  rgb(143, 141, 141));
+    text-align: center;
+    margin: 20px auto; 
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0; 
+    transform: translateY(50%);
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%); 
+    width: 100px;
+    height: auto;
+    cursor: grab; 
+}
+
+main {
+    padding: 20px;
+}
+
+.tit {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+
+.tit h2 {
+    transform: translateX(-33%);
+}
+
+.frases {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+    min-height: 200px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    margin-bottom: 20px; 
+    padding: 20px; 
+}
+
+.frases h2 {
+    color: #2f3031;
+    margin-bottom: 10px;
+}
+
+.frases p {
+    margin-bottom: 20px; 
+}
+
+.frases:hover {
+    transform: translateY(-5px);
+}
+
+.lista {
+    grid-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
